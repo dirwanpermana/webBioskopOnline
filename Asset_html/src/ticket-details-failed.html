@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div id="Content-Container" class="relative flex flex-col w-full max-w-[640px] min-h-screen mx-auto bg-[linear-gradient(179.86deg,_#000000_40.82%,_#0E0E24_99.88%)] overflow-x-hidden">
+        <div id="Header" class="flex flex-col gap-5">
+            <div id="Top-Nav" class="relative flex items-center justify-between px-5 mt-[60px]">
+                <a href="my-tickets.html" class="w-12 h-12 flex shrink-0 items-center justify-center bg-[#FFFFFF1A] backdrop-blur-md rounded-full">
+                    <img src="assets/images/icons/arrow-left.svg" class="w-[22px] h-[22px] flex shrink-0" alt="">
+                </a>
+                <p class="text-center mx-auto font-semibold text-sm">Ticket Details</p>
+                <div class="dummy-button w-12"></div>
+            </div>
+            <div class="flex items-center justify-between gap-2 mx-5">
+                <div class="flex items-center gap-[14px]">
+                    <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl bg-[#D9D9D9] overflow-hidden">
+                        <img src="assets/images/thumbnails/th3.png" class="w-full h-full object-cover" alt="thumbnail">
+                    </div>
+                    <div class="flex flex-col gap-[6px]">
+                        <h3 class="font-semibold line-clamp-2">Despicable Mines 3</h3>
+                        <div class="flex items-center gap-[6px]">
+                            <div class="flex items-center gap-2">
+                                <img src="assets/images/icons/video-vertical-grey.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                <p class="text-sm text-premiere-grey">Kids</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/images/icons/location.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                <p class="text-sm text-premiere-grey">Jakarta</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="Order-Details" class="px-5 mt-5">
+            <div class="accordion group flex flex-col w-full rounded-3xl p-5 gap-4 bg-white/10 has-[:checked]:!h-16 transition-all duration-300 overflow-hidden">
+                <label class="relative flex items-center justify-between mb-1">
+                    <h2>Order Details</h2>
+                    <img src="assets/images/icons/arrow-circle-down.svg" class="w-6 h-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300" alt="icon">
+                    <input type="checkbox" name="accordion-btn" class="absolute hidden">
+                </label>
+                <div class="flex items-center gap-4">
+                    <div class="flex w-[90px] h-20 rounded-2xl bg-[#D9D9D9] overflow-hidden">
+                        <img src="assets/images/thumbnails/theater2.png" class="w-full h-full object-cover" alt="image">
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <p class="font-semibold">Angga Park Cinema</p>
+                        <p class="text-sm text-premiere-grey">Jalan menuju kebahagiaan bersama no 193, Jakarta</p>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/icons/receipt-2.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                        <p>Booking ID</p>
+                    </div>
+                    <p>PMRBWA1992</p>
+                </div>
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/icons/calendar-2.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                        <p>Date & Time</p>
+                    </div>
+                    <p>11:00, 8 Sep, 2024</p>
+                </div>
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/icons/profile-2user.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                        <p>Quantity</p>
+                    </div>
+                    <p>2 Seats</p>
+                </div>
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/icons/ticket-star.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                        <p>Seats</p>
+                    </div>
+                    <p>C1, C2</p>
+                </div>
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/icons/coffee-white.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                        <p>Bonus</p>
+                    </div>
+                    <p>Included 100%</p>
+                </div>
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/icons/dollar-circle.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                        <p>Price</p>
+                    </div>
+                    <p>Rp 189.490/orang</p>
+                </div>
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/icons/receipt-item.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                        <p>Sub Total</p>
+                    </div>
+                    <p>Rp 860.000</p>
+                </div>
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/icons/receipt-disscount.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                        <p>PPN 11%</p>
+                    </div>
+                    <p>Rp 24.000</p>
+                </div>
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/icons/menu-board.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                        <p>Booking Fee</p>
+                    </div>
+                    <p>Rp 3.000</p>
+                </div>
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/icons/ticket-expired.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                        <p>Discount</p>
+                    </div>
+                    <p>Rp 15.000</p>
+                </div>
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/icons/note-favorite.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                        <p>Grand Total</p>
+                    </div>
+                    <p class="font-bold text-premiere-yellow">Rp 1.453.405</p>
+                </div>
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/icons/note.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                        <p>Payment Status</p>
+                    </div>
+                    <p class="w-fit rounded-full p-[6px_10px] bg-premiere-light-red text-premiere-red font-bold text-xs leading-[18px]">FAILED</p>
+                </div>
+            </div>
+        </section>
+        <section id="bonus" class="flex flex-col gap-4 mt-5">
+            <h2 class="font-semibold px-5">Bonus Tickets</h2>
+            <div class="swiper-bonus w-full overflow-hidden">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide !w-fit">
+                        <div class="flex items-center w-[230px] rounded-[20px] p-[10px] gap-[14px] bg-white/10">
+                            <div class="w-20 h-20 rounded-2xl bg-[#D9D9D9] overflow-hidden">
+                                <img src="assets/images/thumbnails/popcorn.png" class="w-full h-full object-cover" alt="image">
+                            </div>
+                            <div class="flex flex-col min-w-[120px] gap-[6px]">
+                                <h3 class="font-semibold">Popcorn Salt</h3>
+                                <div class="flex items-center gap-2">
+                                    <img src="assets/images/icons/coffee.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                    <p class="text-sm text-premiere-grey">Snacks</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide !w-fit">
+                        <div class="flex items-center w-[230px] rounded-[20px] p-[10px] gap-[14px] bg-white/10">
+                            <div class="w-20 h-20 rounded-2xl bg-[#D9D9D9] overflow-hidden">
+                                <img src="assets/images/thumbnails/milk.png" class="w-full h-full object-cover" alt="image">
+                            </div>
+                            <div class="flex flex-col min-w-[120px] gap-[6px]">
+                                <h3 class="font-semibold">Susu Segar</h3>
+                                <div class="flex items-center gap-2">
+                                    <img src="assets/images/icons/coffee.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                    <p class="text-sm text-premiere-grey">Snacks</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide !w-fit">
+                        <div class="flex items-center w-[230px] rounded-[20px] p-[10px] gap-[14px] bg-white/10">
+                            <div class="w-20 h-20 rounded-2xl bg-[#D9D9D9] overflow-hidden">
+                                <img src="assets/images/thumbnails/popcorn.png" class="w-full h-full object-cover" alt="image">
+                            </div>
+                            <div class="flex flex-col min-w-[120px] gap-[6px]">
+                                <h3 class="font-semibold">Popcorn Salt</h3>
+                                <div class="flex items-center gap-2">
+                                    <img src="assets/images/icons/coffee.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                    <p class="text-sm text-premiere-grey">Snacks</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="relative h-[98px] w-full max-w-[640px] px-5">
+            <a class="fixed bottom-[30px] w-[calc(100%-40px)] max-w-[600px] rounded-full p-[12px_18px] h-fit bg-white font-bold text-premiere-black z-10 text-center">Contact Us</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/accordion.js"></script>
+    <script src="js/ticket-details.js"></script>
+    
+</body>
+</html>

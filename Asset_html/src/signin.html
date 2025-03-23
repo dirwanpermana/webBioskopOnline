@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div id="Content-Container" class="relative flex flex-col w-full max-w-[640px] min-h-screen mx-auto bg-[linear-gradient(179.86deg,_#000000_40.82%,_#0E0E24_99.88%)] overflow-x-hidden">
+        <div id="Background" class="absolute top-0 w-full h-[480px]">
+            <div class="absolute w-full h-full top-0 bg-[linear-gradient(359.16deg,_#000000_6.6%,_rgba(14,14,36,0)_99.33%)]"></div>
+            <img src="assets/images/backgrounds/signin.png" class="w-full h-full object-cover" alt="background">
+        </div>
+        <img src="assets/images/logos/logo.svg" class="relative flex max-w-[188px] mx-auto mt-[274px]" alt="logo">
+        <form action="discover.html" class="relative flex flex-col gap-[30px] px-5 py-[60px] my-auto">
+            <h1 class="font-bold text-[26px] leading-[39px]">Sign In</h1>
+            <div class="flex flex-col gap-4">
+                <label class="flex flex-col gap-2">
+                    <p>Email Address</p>
+                    <input type="email" name="" id="" class="appearance-none outline-none rounded-full py-3 px-[18px] bg-[#FFFFFF33] backdrop-blur-sm font-semibold placeholder:font-normal placeholder:text-white focus:ring-1 focus:ring-white transition-all duration-300" placeholder="What’s your email"></input>
+                </label>
+                <label class="flex flex-col gap-2">
+                    <p>Password</p>
+                    <input type="password" name="" id="" class="appearance-none outline-none rounded-full py-3 px-[18px] bg-[#FFFFFF33] backdrop-blur-sm font-semibold placeholder:font-normal placeholder:text-white focus:ring-1 focus:ring-white transition-all duration-300" placeholder="Type your strong password"></input>
+                </label>
+            </div>
+            <div class="flex flex-col gap-3">
+                <button type="submit" class="w-full rounded-full py-3 px-[18px] bg-white text-center font-bold text-premiere-black">
+                    Sign In to My Account
+                </button>
+                <a href="index.html" class="w-full rounded-full py-3 px-[18px] bg-white/10 text-center font-bold">
+                    Create New Account
+                </a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div id="Content-Container" class="relative flex flex-col w-full max-w-[640px] min-h-screen mx-auto bg-[linear-gradient(179.86deg,_#000000_40.82%,_#0E0E24_99.88%)] overflow-x-hidden">
+        <div id="Header" class="flex flex-col gap-5">
+            <div id="Top-Nav" class="relative flex items-center justify-between px-5 mt-[60px]">
+                <a href="details.html" class="w-12 h-12 flex shrink-0 items-center justify-center bg-[#FFFFFF1A] backdrop-blur-md rounded-full">
+                    <img src="assets/images/icons/arrow-left.svg" class="w-[22px] h-[22px] flex shrink-0" alt="">
+                </a>
+                <p class="text-center mx-auto font-semibold text-sm">Choose Theater</p>
+                <div class="dummy-button w-12"></div>
+            </div>
+            <div class="flex items-center justify-between gap-2 mx-5">
+                <div class="flex items-center gap-[14px]">
+                    <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl bg-[#D9D9D9] overflow-hidden">
+                        <img src="assets/images/thumbnails/th3.png" class="w-full h-full object-cover" alt="thumbnail">
+                    </div>
+                    <div class="flex flex-col gap-[6px]">
+                        <h3 class="font-semibold line-clamp-2">Despicable Mines 3</h3>
+                        <div class="flex items-center gap-2">
+                            <img src="assets/images/icons/video-vertical-grey.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                            <p class="text-sm text-premiere-grey">Kids</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img src="assets/images/icons/location.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                            <p class="text-sm text-premiere-grey">Jakarta</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-[2px] rounded-full p-[8px_10px] bg-[#FFFFFF1A]">
+                    <p class="font-semibold text-xs leading-[18px]">4/5</p>
+                    <img src="assets/images/icons/Star 1.svg" class="w-4 h-4 flex shrink-0" alt="star">
+                </div>
+            </div>
+        </div>
+        <form action="choose-time.html" class="relative px-5 mt-5">
+            <div id="Theaters" class="tab-content flex flex-col gap-4">
+                <h2 class="font-semibold">Available in Theaters</h2>
+                <label class="relative theather-card flex items-center rounded-3xl p-4 gap-2 bg-white/10 backdrop-blur-md hover:bg-premiere-purple has-[:checked]:bg-premiere-purple transition-all duration-300">
+                    <input type="radio" name="theater" class="absolute top-1/2 left-1/2 opacity-0" required/>
+                    <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl overflow-hidden bg-[#D9D9D9]">
+                        <img src="assets/images/thumbnails/theater1.png" class="w-full h-full object-cover" alt="theater">
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <h3 class="font-semibold">Tenda Bersama</h3>
+                        <p class="text-sm text-premiere-grey">Jalan menuju kebahagiaan bersama no 193, Jakarta</p>
+                    </div>
+                </label>
+                <label class="relative theather-card flex items-center rounded-3xl p-4 gap-2 bg-white/10 backdrop-blur-md hover:bg-premiere-purple has-[:checked]:bg-premiere-purple transition-all duration-300">
+                    <input type="radio" name="theater" class="absolute top-1/2 left-1/2 opacity-0" required/>
+                    <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl overflow-hidden bg-[#D9D9D9]">
+                        <img src="assets/images/thumbnails/theater2.png" class="w-full h-full object-cover" alt="theater">
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <h3 class="font-semibold">Angga Park Cinema</h3>
+                        <p class="text-sm text-premiere-grey">Jalan menuju kebahagiaan bersama no 193, Jakarta</p>
+                    </div>
+                </label>
+                <label class="relative theather-card flex items-center rounded-3xl p-4 gap-2 bg-white/10 backdrop-blur-md hover:bg-premiere-purple has-[:checked]:bg-premiere-purple transition-all duration-300">
+                    <input type="radio" name="theater" class="absolute top-1/2 left-1/2 opacity-0" required/>
+                    <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl overflow-hidden bg-[#D9D9D9]">
+                        <img src="assets/images/thumbnails/theater3.png" class="w-full h-full object-cover" alt="theater">
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <h3 class="font-semibold">Cinema Arabica</h3>
+                        <p class="text-sm text-premiere-grey">Jalan menuju kebahagiaan bersama no 193, Jakarta</p>
+                    </div>
+                </label>
+                <label class="relative theather-card flex items-center rounded-3xl p-4 gap-2 bg-white/10 backdrop-blur-md hover:bg-premiere-purple has-[:checked]:bg-premiere-purple transition-all duration-300">
+                    <input type="radio" name="theater" class="absolute top-1/2 left-1/2 opacity-0" required/>
+                    <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl overflow-hidden bg-[#D9D9D9]">
+                        <img src="assets/images/thumbnails/theater1.png" class="w-full h-full object-cover" alt="theater">
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <h3 class="font-semibold">Angga Park Cinema</h3>
+                        <p class="text-sm text-premiere-grey">Jalan menuju kebahagiaan bersama no 193, Jakarta</p>
+                    </div>
+                </label>
+                <label class="relative theather-card flex items-center rounded-3xl p-4 gap-2 bg-white/10 backdrop-blur-md hover:bg-premiere-purple has-[:checked]:bg-premiere-purple transition-all duration-300">
+                    <input type="radio" name="theater" class="absolute top-1/2 left-1/2 opacity-0" required/>
+                    <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl overflow-hidden bg-[#D9D9D9]">
+                        <img src="assets/images/thumbnails/theater3.png" class="w-full h-full object-cover" alt="theater">
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <h3 class="font-semibold">Angga Park Cinema</h3>
+                        <p class="text-sm text-premiere-grey">Jalan menuju kebahagiaan bersama no 193, Jakarta</p>
+                    </div>
+                </label>
+            </div>
+            <div class="relative h-[98px] w-full max-w-[640px]">
+                <button type="submit" class="fixed bottom-[30px] w-[calc(100%-40px)] max-w-[600px] rounded-full p-[12px_18px] h-fit bg-white font-bold text-premiere-black">Continue</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

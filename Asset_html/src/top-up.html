@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+</head>
+<body>
+    <div id="Content-Container" class="relative flex flex-col w-full max-w-[640px] min-h-screen mx-auto bg-[linear-gradient(179.86deg,_#000000_40.82%,_#0E0E24_99.88%)] overflow-x-hidden">
+        <div id="Header" class="flex flex-col gap-5">
+            <div id="Top-Nav" class="relative flex items-center justify-between px-5 mt-[60px]">
+                <a href="my-wallet.html" class="w-12 h-12 flex shrink-0 items-center justify-center bg-[#FFFFFF1A] backdrop-blur-md rounded-full">
+                    <img src="assets/images/icons/arrow-left.svg" class="w-[22px] h-[22px] flex shrink-0" alt="">
+                </a>
+                <p class="text-center mx-auto font-semibold text-sm">Topup Wallet</p>
+                <div class="dummy-button w-12"></div>
+            </div>
+        </div>
+        <section id="Wallet" class="flex flex-col items-center gap-3 px-5 mt-5">
+            <div class="relative flex flex-col w-full max-w-[353px] rounded-[30px] bg-white/10 overflow-hidden">
+                <img src="assets/images/backgrounds/wallet-lines.svg" class="absolute w-full h-full object-cover" alt="">
+                <img src="assets/images/logos/wallet.svg" class=" relativeflex shrink-0 w-[51px] mt-6 mx-6" alt="">
+                <p class="relative font-bold text-4xl leading-[54px] mt-[18px] mx-6">Rp 19.458.333</p>
+                <div class="flex items-center justify-between p-[10px_14px] pl-6 bg-white/20 backdrop-blur-3xl mt-[21px]">
+                    <div class="flex flex-col gap-[2px]">
+                        <p class="text-xs leading-[18px]">Name</p>
+                        <p class="font-semibold text-sm">Angga Risky</p>
+                    </div>
+                    <div class="flex flex-col gap-[2px]">
+                        <p class="text-xs leading-[18px]">Expired At</p>
+                        <p class="font-semibold text-sm">02/30</p>
+                    </div>
+                    <div class="flex flex-col gap-[2px]">
+                        <p class="text-xs leading-[18px]">Branch</p>
+                        <p class="font-semibold text-sm">HQ</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p id="Amount-Choosed" class="font-bold text-4xl leading-[54px] text-center mt-[30px]">______</p>
+        <form action="midtrans.html" class="relative px-5 mt-[30px]">
+            <div id="Theaters" class="tab-content flex flex-col gap-4">
+                <h2 class="font-semibold">Choose Amount</h2>
+                <div class="grid grid-cols-3 gap-4">
+                    <label class="group relative theather-card flex flex-col rounded-3xl p-4 gap-[2px] bg-white/10 backdrop-blur-md hover:bg-premiere-purple has-[:checked]:bg-premiere-purple transition-all duration-300">
+                        <input type="radio" name="amount" class="absolute top-1/2 left-1/2 opacity-0" value="50000" required/>
+                        <span class="font-semibold text-xs leading-[18px]">Rp</span>
+                        <p class="font-semibold">50.000</p>
+                    </label>
+                    <label class="group relative theather-card flex flex-col rounded-3xl p-4 gap-[2px] bg-white/10 backdrop-blur-md hover:bg-premiere-purple has-[:checked]:bg-premiere-purple transition-all duration-300">
+                        <input type="radio" name="amount" class="absolute top-1/2 left-1/2 opacity-0" value="150000" required/>
+                        <span class="font-semibold text-xs leading-[18px]">Rp</span>
+                        <p class="font-semibold">150.000</p>
+                    </label>
+                    <label class="group relative theather-card flex flex-col rounded-3xl p-4 gap-[2px] bg-white/10 backdrop-blur-md hover:bg-premiere-purple has-[:checked]:bg-premiere-purple transition-all duration-300">
+                        <input type="radio" name="amount" class="absolute top-1/2 left-1/2 opacity-0" value="350000" required/>
+                        <span class="font-semibold text-xs leading-[18px]">Rp</span>
+                        <p class="font-semibold">350.000</p>
+                    </label>
+                    <label class="group relative theather-card flex flex-col rounded-3xl p-4 gap-[2px] bg-white/10 backdrop-blur-md hover:bg-premiere-purple has-[:checked]:bg-premiere-purple transition-all duration-300">
+                        <input type="radio" name="amount" class="absolute top-1/2 left-1/2 opacity-0" value="500000" required/>
+                        <span class="font-semibold text-xs leading-[18px]">Rp</span>
+                        <p class="font-semibold">500.000</p>
+                    </label>
+                    <label class="group relative theather-card flex flex-col rounded-3xl p-4 gap-[2px] bg-white/10 backdrop-blur-md hover:bg-premiere-purple has-[:checked]:bg-premiere-purple transition-all duration-300">
+                        <input type="radio" name="amount" class="absolute top-1/2 left-1/2 opacity-0" value="750000" required/>
+                        <span class="font-semibold text-xs leading-[18px]">Rp</span>
+                        <p class="font-semibold">750.000</p>
+                    </label>
+                    <label class="group relative theather-card flex flex-col rounded-3xl p-4 gap-[2px] bg-white/10 backdrop-blur-md hover:bg-premiere-purple has-[:checked]:bg-premiere-purple transition-all duration-300">
+                        <input type="radio" name="amount" class="absolute top-1/2 left-1/2 opacity-0" value="900000" required/>
+                        <span class="font-semibold text-xs leading-[18px]">Rp</span>
+                        <p class="font-semibold">900.000</p>
+                    </label>
+                </div>
+            </div>
+            <div class="relative h-[98px] w-full max-w-[640px]">
+                <button type="submit" class="fixed bottom-[30px] w-[calc(100%-40px)] max-w-[600px] rounded-full p-[12px_18px] h-fit bg-white font-bold text-premiere-black">Proceed to Topup</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/top-up.js"></script>
+</body>
+</html>

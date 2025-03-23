@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div id="Content-Container" class="relative flex flex-col w-full max-w-[640px] min-h-screen mx-auto bg-[linear-gradient(179.86deg,_#000000_40.82%,_#0E0E24_99.88%)] overflow-x-hidden">
+        <div id="Background" class="absolute top-0 w-full h-[480px] overflow-hidden">
+            <div class="absolute w-full h-[169px] top-0 bg-[linear-gradient(180deg,rgba(0,0,0,0)_50.2%,rgba(14,14,36,0)_100%)]"></div>
+            <div class="absolute w-full h-[169px] bottom-0 bg-[linear-gradient(360deg,#000000_6.6%,rgba(14,14,36,0)_99.33%)]"></div>
+            <img src="assets/images/backgrounds/details.png" alt="background">
+        </div>
+        <div id="Top-Nav" class="relative flex items-center justify-between px-5 mt-[60px] mb-[337px]">
+            <a href="discover.html" class="w-12 h-12 flex shrink-0 items-center justify-center bg-[#FFFFFF1A] backdrop-blur-md rounded-full">
+                <img src="assets/images/icons/arrow-left.svg" class="w-[22px] h-[22px] flex shrink-0" alt="">
+            </a>
+            <p class="text-center mx-auto font-semibold text-sm">Movie Details</p>
+            <a href="discover.html" class="w-12 h-12 flex shrink-0 items-center justify-center bg-[#FFFFFF1A] backdrop-blur-md rounded-full">
+                <img src="assets/images/icons/heart.svg" class="w-[22px] h-[22px] flex shrink-0" alt="">
+            </a>
+        </div>
+        <div id="Title" class="relative flex items-center justify-between px-5">
+            <h1  class="font-bold text-[30px] leading-[45px]">Star Wars 3</h1>
+            <button class="w-[60px] h-[60px] flex shrink-0 items-center justify-center bg-[#FFFFFF1A] backdrop-blur-md rounded-full"></a>
+                <img src="assets/images/icons/video-circle.svg" class="w-9 h-9 flex shrink-0" alt="icon">
+            </button>
+        </div>
+        <section id="Details" class="flex flex-col gap-5 mt-5">
+            <div class="swiper-tabs w-full overflow-hidden">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide !w-fit py-[1px]">
+                        <button class="tab-link" data-target-tab="#About-Tab">
+                            <div class="flex rounded-full p-[12px_14px] bg-[#FFFFFF1A] font-semibold text-sm hover:ring-1 hover:ring-white transition-all duration-300 !bg-white !text-premiere-black">About</div>
+                        </button>
+                    </div>
+                    <div class="swiper-slide !w-fit py-[1px]">
+                        <button class="tab-link" data-target-tab="#Reviews-Tab">
+                            <div class="flex rounded-full p-[12px_14px] bg-[#FFFFFF1A] font-semibold text-sm hover:ring-1 hover:ring-white transition-all duration-300">Reviews</div>
+                        </button>
+                    </div>
+                    <div class="swiper-slide !w-fit py-[1px]">
+                        <button class="tab-link" data-target-tab="#Theaters-Tab">
+                            <div class="flex rounded-full p-[12px_14px] bg-[#FFFFFF1A] font-semibold text-sm hover:ring-1 hover:ring-white transition-all duration-300">Theaters</div>
+                        </button>
+                    </div>
+                    <div class="swiper-slide !w-fit py-[1px]">
+                        <button class="tab-link">
+                            <div class="flex rounded-full p-[12px_14px] bg-[#FFFFFF1A] font-semibold text-sm hover:ring-1 hover:ring-white transition-all duration-300">Casts</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="px-5">
+                <div id="About-Tab" class="tab-content flex flex-col gap-5">
+                    <div class="flex flex-col gap-3">
+                        <h2 class="font-semibold">About</h2>
+                        <p class="leading-[28px]">Legendary sci-fi film series set in a galaxy far, far away, blending epic space battles, mystical powers, and iconic characters the original film, released in 1977 and later on.</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <div class="flex items-center rounded-full p-[8px_14px] gap-1 bg-[#FFFFFF1A] backdrop-blur-md">
+                            <img src="assets/images/icons/video-vertical-white.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                            <p class="text-sm">Kids</p>
+                        </div>
+                        <div class="flex items-center rounded-full p-[8px_14px] gap-1 bg-[#FFFFFF1A] backdrop-blur-md">
+                            <img src="assets/images/icons/location.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                            <p class="text-sm">Jakarta</p>
+                        </div>
+                        <div class="flex items-center rounded-full p-[8px_14px] gap-1 bg-[#FFFFFF1A] backdrop-blur-md">
+                            <p class="text-sm">4/5</p>
+                            <img src="assets/images/icons/Star 1.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                        </div>
+                    </div>
+                </div>
+                <div id="Reviews-Tab" class="tab-content flex flex-col gap-4 hidden">
+                    <h2 class="font-semibold">Customer Reviews</h2>
+                    <div class="review-card flex flex-col rounded-3xl p-4 gap-2 bg-white/10 backdrop-blur-md">
+                        <div class="flex items-center gap-1">
+                            <img src="assets/images/icons/Star 1.svg" class="w-5 h-5 flex shrink-0" alt="star">
+                            <img src="assets/images/icons/Star 1.svg" class="w-5 h-5 flex shrink-0" alt="star">
+                            <img src="assets/images/icons/Star 1.svg" class="w-5 h-5 flex shrink-0" alt="star">
+                            <img src="assets/images/icons/Star 1.svg" class="w-5 h-5 flex shrink-0" alt="star">
+                        </div>
+                        <p class="leading-[28px]">It was okay for me, just so so...</p>
+                        <p class="font-semibold">Abbe Parnaman</p>
+                    </div>
+                    <div class="review-card flex flex-col rounded-3xl p-4 gap-2 bg-white/10 backdrop-blur-md">
+                        <div class="flex items-center gap-1">
+                            <img src="assets/images/icons/Star 1.svg" class="w-5 h-5 flex shrink-0" alt="star">
+                            <img src="assets/images/icons/Star 1.svg" class="w-5 h-5 flex shrink-0" alt="star">
+                            <img src="assets/images/icons/Star 1.svg" class="w-5 h-5 flex shrink-0" alt="star">
+                            <img src="assets/images/icons/Star 1.svg" class="w-5 h-5 flex shrink-0" alt="star">
+                            <img src="assets/images/icons/Star 1.svg" class="w-5 h-5 flex shrink-0" alt="star">
+                        </div>
+                        <p class="leading-[28px]">Movie was good, we were happy couple watching this every time again again.</p>
+                        <p class="font-semibold">Sarina Putri</p>
+                    </div>
+                    <div class="review-card flex flex-col rounded-3xl p-4 gap-2 bg-white/10 backdrop-blur-md">
+                        <div class="flex items-center gap-1">
+                            <img src="assets/images/icons/Star 1.svg" class="w-5 h-5 flex shrink-0" alt="star">
+                            <img src="assets/images/icons/Star 1.svg" class="w-5 h-5 flex shrink-0" alt="star">
+                            <img src="assets/images/icons/Star 1.svg" class="w-5 h-5 flex shrink-0" alt="star">
+                            <img src="assets/images/icons/Star 1.svg" class="w-5 h-5 flex shrink-0" alt="star">
+                            <img src="assets/images/icons/Star 1.svg" class="w-5 h-5 flex shrink-0" alt="star">
+                        </div>
+                        <p class="leading-[28px]">It was okay for me, just so so...</p>
+                        <p class="font-semibold">Abbe Parnaman</p>
+                    </div>
+                </div>
+                <div id="Theaters-Tab" class="tab-content flex flex-col gap-4 hidden">
+                    <h2 class="font-semibold">Available in Theaters</h2>
+                    <div class="theather-card flex items-center rounded-3xl p-4 gap-2 bg-white/10 backdrop-blur-md">
+                        <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl overflow-hidden bg-[#D9D9D9]">
+                            <img src="assets/images/thumbnails/theater1.png" class="w-full h-full object-cover" alt="theater">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <h3 class="font-semibold">Tenda Bersama</h3>
+                            <p class="text-sm text-premiere-grey">Jalan menuju kebahagiaan bersama no 193, Jakarta</p>
+                        </div>
+                    </div>
+                    <div class="theather-card flex items-center rounded-3xl p-4 gap-2 bg-white/10 backdrop-blur-md">
+                        <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl overflow-hidden bg-[#D9D9D9]">
+                            <img src="assets/images/thumbnails/theater2.png" class="w-full h-full object-cover" alt="theater">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <h3 class="font-semibold">Tenda Bersama</h3>
+                            <p class="text-sm text-premiere-grey">Jalan menuju kebahagiaan bersama no 193, Jakarta</p>
+                        </div>
+                    </div>
+                    <div class="theather-card flex items-center rounded-3xl p-4 gap-2 bg-white/10 backdrop-blur-md">
+                        <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl overflow-hidden bg-[#D9D9D9]">
+                            <img src="assets/images/thumbnails/theater3.png" class="w-full h-full object-cover" alt="theater">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <h3 class="font-semibold">Tenda Bersama</h3>
+                            <p class="text-sm text-premiere-grey">Jalan menuju kebahagiaan bersama no 193, Jakarta</p>
+                        </div>
+                    </div>
+                    <div class="theather-card flex items-center rounded-3xl p-4 gap-2 bg-white/10 backdrop-blur-md">
+                        <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl overflow-hidden bg-[#D9D9D9]">
+                            <img src="assets/images/thumbnails/theater1.png" class="w-full h-full object-cover" alt="theater">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <h3 class="font-semibold">Tenda Bersama</h3>
+                            <p class="text-sm text-premiere-grey">Jalan menuju kebahagiaan bersama no 193, Jakarta</p>
+                        </div>
+                    </div>
+                    <div class="theather-card flex items-center rounded-3xl p-4 gap-2 bg-white/10 backdrop-blur-md">
+                        <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl overflow-hidden bg-[#D9D9D9]">
+                            <img src="assets/images/thumbnails/theater3.png" class="w-full h-full object-cover" alt="theater">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <h3 class="font-semibold">Tenda Bersama</h3>
+                            <p class="text-sm text-premiere-grey">Jalan menuju kebahagiaan bersama no 193, Jakarta</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="bonus" class="flex flex-col gap-4 mt-5">
+            <h2 class="font-semibold px-5">Bonus Tickets</h2>
+            <div class="swiper-bonus w-full overflow-hidden">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide !w-fit">
+                        <div class="flex items-center w-[230px] rounded-[20px] p-[10px] gap-[14px] bg-white/10">
+                            <div class="w-20 h-20 rounded-2xl bg-[#D9D9D9] overflow-hidden">
+                                <img src="assets/images/thumbnails/popcorn.png" class="w-full h-full object-cover" alt="image">
+                            </div>
+                            <div class="flex flex-col min-w-[120px] gap-[6px]">
+                                <h3 class="font-semibold">Popcorn Salt</h3>
+                                <div class="flex items-center gap-2">
+                                    <img src="assets/images/icons/coffee.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                    <p class="text-sm text-premiere-grey">Snacks</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide !w-fit">
+                        <div class="flex items-center w-[230px] rounded-[20px] p-[10px] gap-[14px] bg-white/10">
+                            <div class="w-20 h-20 rounded-2xl bg-[#D9D9D9] overflow-hidden">
+                                <img src="assets/images/thumbnails/milk.png" class="w-full h-full object-cover" alt="image">
+                            </div>
+                            <div class="flex flex-col min-w-[120px] gap-[6px]">
+                                <h3 class="font-semibold">Susu Segar</h3>
+                                <div class="flex items-center gap-2">
+                                    <img src="assets/images/icons/coffee.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                    <p class="text-sm text-premiere-grey">Snacks</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide !w-fit">
+                        <div class="flex items-center w-[230px] rounded-[20px] p-[10px] gap-[14px] bg-white/10">
+                            <div class="w-20 h-20 rounded-2xl bg-[#D9D9D9] overflow-hidden">
+                                <img src="assets/images/thumbnails/popcorn.png" class="w-full h-full object-cover" alt="image">
+                            </div>
+                            <div class="flex flex-col min-w-[120px] gap-[6px]">
+                                <h3 class="font-semibold">Popcorn Salt</h3>
+                                <div class="flex items-center gap-2">
+                                    <img src="assets/images/icons/coffee.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                    <p class="text-sm text-premiere-grey">Snacks</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="Bottom-Nav" class="relative w-full h-[123px] flex shrink-0">
+            <div class="fixed bottom-5 left-5 right-5 w-full max-w-[330px] mx-auto flex items-center justify-between rounded-full p-[10px_14px] pl-6 gap-[14px] bg-[#FFFFFF33] z-20 backdrop-blur-md">
+                <div>
+                    <p class="font-semibold text-xl leading-[30px]">Rp 280.000 </p>
+                    <span class="font-normal text-sm mt-[2px]">/orang</span>
+                </div>
+                <a href="choose-theater.html" class="rounded-full p-[12px_18px] bg-white font-bold text-premiere-black">Buy Ticket</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/details.js"></script>
+</body>
+</html>

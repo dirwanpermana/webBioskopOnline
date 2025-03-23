@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div id="Content-Container" class="relative flex flex-col w-full max-w-[640px] min-h-screen mx-auto bg-[linear-gradient(179.86deg,_#000000_40.82%,_#0E0E24_99.88%)] overflow-x-hidden">
+        <div id="Background" class="absolute top-0 w-full h-[480px]">
+            <div class="absolute w-full h-full top-0 bg-[linear-gradient(359.16deg,_#000000_6.6%,_rgba(14,14,36,0)_99.33%)]"></div>
+            <img src="assets/images/backgrounds/signup.png" class="w-full h-full object-cover" alt="background">
+        </div>
+        <img src="assets/images/logos/logo.svg" class="relative flex max-w-[188px] mx-auto mt-[60px]" alt="logo">
+        <form action="signin.html" class="relative flex flex-col gap-[30px] px-5 py-[60px] my-auto">
+            <h1 class="font-bold text-[26px] leading-[39px]">Sign Up</h1>
+            <div class="flex flex-col gap-4">
+                <div class="flex items-center gap-5">
+                    <label class="relative flex w-[100px] h-[100px] shrink-0 rounded-full overflow-hidden bg-[#FFFFFF33] backdrop-blur-sm">
+                        <p id="Text-Label" class="w-full h-full flex items-center justify-center text-center font-semibold">
+                            Add <br>Photo
+                        </p>
+                        <img id="Avatar-Preview" src="" class="w-full h-full object-cover hidden" alt="avatar">
+                        <input type="file" class="absolute bottom-0 -left-3/4 -z-30 opacity-0" required>
+                    </label>
+                    <button type="button" class="rounded-full py-2 px-3 bg-[#FFFFFF33] backdrop-blur-sm font-bold text-sm">Delete</button>
+                </div>
+                <label class="flex flex-col gap-2">
+                    <p>Complete Name</p>
+                    <input type="text" name="" id="" class="appearance-none outline-none rounded-full py-3 px-[18px] bg-[#FFFFFF33] backdrop-blur-sm font-semibold placeholder:font-normal placeholder:text-white focus:ring-1 focus:ring-white transition-all duration-300" placeholder="What’s your name"></input>
+                </label>
+                <label class="flex flex-col gap-2">
+                    <p>Email Address</p>
+                    <input type="email" name="" id="" class="appearance-none outline-none rounded-full py-3 px-[18px] bg-[#FFFFFF33] backdrop-blur-sm font-semibold placeholder:font-normal placeholder:text-white focus:ring-1 focus:ring-white transition-all duration-300" placeholder="What’s your email"></input>
+                </label>
+                <label class="flex flex-col gap-2">
+                    <p>Password</p>
+                    <input type="password" name="" id="" class="appearance-none outline-none rounded-full py-3 px-[18px] bg-[#FFFFFF33] backdrop-blur-sm font-semibold placeholder:font-normal placeholder:text-white focus:ring-1 focus:ring-white transition-all duration-300" placeholder="Type your strong password"></input>
+                </label>
+            </div>
+            <div class="flex flex-col gap-3">
+                <button type="submit" class="w-full rounded-full py-3 px-[18px] bg-white text-center font-bold text-premiere-black">
+                    Create New Account
+                </button>
+                <a href="signin.html" class="w-full rounded-full py-3 px-[18px] bg-white/10 text-center font-bold">
+                    Sign In
+                </a>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/signup.js"></script>
+</body>
+</html>

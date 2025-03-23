@@ -1,0 +1,310 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div id="Content-Container" class="relative flex flex-col w-full max-w-[640px] min-h-screen mx-auto bg-[linear-gradient(90deg,_#000000_40.82%,_#0E0E24_99.88%)] overflow-x-hidden">
+        <div id="Top-Nav" class="relative flex items-center justify-between px-5 mt-[60px]">
+            <a href="discover.html" class="w-12 h-12 flex shrink-0 items-center justify-center bg-[#FFFFFF1A] backdrop-blur-md rounded-full">
+                <img src="assets/images/icons/arrow-left.svg" class="w-[22px] h-[22px] flex shrink-0" alt="">
+            </a>
+            <p class="text-center mx-auto font-semibold text-sm">Asian Genre</p>
+            <div class="dummy-button w-12"></div>
+        </div>
+        <section class="flex items-center gap-3 flex-wrap px-5 mt-5">
+            <p class="font-semibold">Filters</p>
+            <a href="browse-genre.html" class="card">
+                <div class="flex rounded-full p-[12px_14px] bg-[#FFFFFF1A] font-semibold text-sm hover:ring-1 hover:ring-white transition-all duration-300">Asian</div>
+            </a>
+            <a href="browse-genre.html" class="card">
+                <div class="flex rounded-full p-[12px_14px] bg-[#FFFFFF1A] font-semibold text-sm hover:ring-1 hover:ring-white transition-all duration-300">Jakarta</div>
+            </a>
+            <a href="browse-genre.html" class="card">
+                <div class="flex rounded-full p-[12px_14px] bg-[#FFFFFF1A] font-semibold text-sm hover:ring-1 hover:ring-white transition-all duration-300">XXI Premiere</div>
+            </a>
+        </section>
+        <section id="Popular" class="flex flex-col gap-4 mt-5">
+            <h2 class="font-semibold px-5">Popular Movies in Asian</h2>
+            <div class="swiper-popular w-full overflow-hidden">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide !w-fit">
+                        <a href="details.html" class="card">
+                            <div class="relative flex w-[240px] h-[300px] shrink-0 rounded-3xl bg-[#D9D9D9] overflow-hidden">
+                                <img src="assets/images/thumbnails/th5.png" class="w-full h-full object-cover" alt="thumbnail">
+                                <div class="absolute w-full bottom-0 p-[14px] z-10">
+                                    <div class="flex items-center w-full rounded-[20px] p-[14px] gap-3 bg-[#FFFFFF33] backdrop-blur-md verflow-hidden">
+                                        <img src="assets/images/icons/video-vertical-white.svg" class="w-8 h-8 flex shrink-0" alt="icon">
+                                        <div class="flex flex-col gap-[2px]">
+                                            <p class="text-sm">Business</p>
+                                            <h3 class="font-semibold">Metaverse World</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide !w-fit">
+                        <a href="details.html" class="card">
+                            <div class="relative flex w-[240px] h-[300px] shrink-0 rounded-3xl bg-[#D9D9D9] overflow-hidden">
+                                <img src="assets/images/thumbnails/th1.png" class="w-full h-full object-cover" alt="thumbnail">
+                                <div class="absolute w-full bottom-0 p-[14px] z-10">
+                                    <div class="flex items-center w-full rounded-[20px] p-[14px] gap-3 bg-[#FFFFFF33] backdrop-blur-md verflow-hidden">
+                                        <img src="assets/images/icons/video-vertical-white.svg" class="w-8 h-8 flex shrink-0" alt="icon">
+                                        <div class="flex flex-col gap-[2px]">
+                                            <p class="text-sm">Business</p>
+                                            <h3 class="font-semibold">Metaverse World</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide !w-fit">
+                        <a href="details.html" class="card">
+                            <div class="relative flex w-[240px] h-[300px] shrink-0 rounded-3xl bg-[#D9D9D9] overflow-hidden">
+                                <img src="assets/images/thumbnails/th2.png" class="w-full h-full object-cover" alt="thumbnail">
+                                <div class="absolute w-full bottom-0 p-[14px] z-10">
+                                    <div class="flex items-center w-full rounded-[20px] p-[14px] gap-3 bg-[#FFFFFF33] backdrop-blur-md verflow-hidden">
+                                        <img src="assets/images/icons/video-vertical-white.svg" class="w-8 h-8 flex shrink-0" alt="icon">
+                                        <div class="flex flex-col gap-[2px]">
+                                            <p class="text-sm">Business</p>
+                                            <h3 class="font-semibold">Metaverse World</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide !w-fit">
+                        <a href="details.html" class="card">
+                            <div class="relative flex w-[240px] h-[300px] shrink-0 rounded-3xl bg-[#D9D9D9] overflow-hidden">
+                                <img src="assets/images/thumbnails/th3.png" class="w-full h-full object-cover" alt="thumbnail">
+                                <div class="absolute w-full bottom-0 p-[14px] z-10">
+                                    <div class="flex items-center w-full rounded-[20px] p-[14px] gap-3 bg-[#FFFFFF33] backdrop-blur-md verflow-hidden">
+                                        <img src="assets/images/icons/video-vertical-white.svg" class="w-8 h-8 flex shrink-0" alt="icon">
+                                        <div class="flex flex-col gap-[2px]">
+                                            <p class="text-sm">Business</p>
+                                            <h3 class="font-semibold">Metaverse World</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="New-Movies" class="flex flex-col gap-4 mt-5 px-5">
+            <h2 class="font-semibold">All New Movies</h2>
+            <a href="details.html" class="card">
+                <div class="flex items-center justify-between gap-2">
+                    <div class="flex items-center gap-[14px]">
+                        <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl bg-[#D9D9D9] overflow-hidden">
+                            <img src="assets/images/thumbnails/th3.png" class="w-full h-full object-cover" alt="thumbnail">
+                        </div>
+                        <div class="flex flex-col gap-[6px]">
+                            <h3 class="font-semibold line-clamp-2">Despicable Mines 3</h3>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/images/icons/video-vertical-grey.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                <p class="text-sm text-premiere-grey">Kids</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/images/icons/location.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                <p class="text-sm text-premiere-grey">Jakarta</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-[2px] rounded-full p-[8px_10px] bg-[#FFFFFF1A]">
+                        <p class="font-semibold text-xs leading-[18px]">4/5</p>
+                        <img src="assets/images/icons/Star 1.svg" class="w-4 h-4 flex shrink-0" alt="star">
+                    </div>
+                </div>
+            </a>
+            <a href="details.html" class="card">
+                <div class="flex items-center justify-between gap-2">
+                    <div class="flex items-center gap-[14px]">
+                        <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl bg-[#D9D9D9] overflow-hidden">
+                            <img src="assets/images/thumbnails/th4.png" class="w-full h-full object-cover" alt="thumbnail">
+                        </div>
+                        <div class="flex flex-col gap-[6px]">
+                            <h3 class="font-semibold line-clamp-2">Power of Linear</h3>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/images/icons/video-vertical-grey.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                <p class="text-sm text-premiere-grey">Horror</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/images/icons/location.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                <p class="text-sm text-premiere-grey">Bandung</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-[2px] rounded-full p-[8px_10px] bg-[#FFFFFF1A]">
+                        <p class="font-semibold text-xs leading-[18px]">4/5</p>
+                        <img src="assets/images/icons/Star 1.svg" class="w-4 h-4 flex shrink-0" alt="star">
+                    </div>
+                </div>
+            </a>
+            <a href="details.html" class="card">
+                <div class="flex items-center justify-between gap-2">
+                    <div class="flex items-center gap-[14px]">
+                        <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl bg-[#D9D9D9] overflow-hidden">
+                            <img src="assets/images/thumbnails/th2.png" class="w-full h-full object-cover" alt="thumbnail">
+                        </div>
+                        <div class="flex flex-col gap-[6px]">
+                            <h3 class="font-semibold line-clamp-2">Avengers Kids</h3>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/images/icons/video-vertical-grey.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                <p class="text-sm text-premiere-grey">Family</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/images/icons/location.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                <p class="text-sm text-premiere-grey">Denpasar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-[2px] rounded-full p-[8px_10px] bg-[#FFFFFF1A]">
+                        <p class="font-semibold text-xs leading-[18px]">4/5</p>
+                        <img src="assets/images/icons/Star 1.svg" class="w-4 h-4 flex shrink-0" alt="star">
+                    </div>
+                </div>
+            </a>
+            <a href="details.html" class="card">
+                <div class="flex items-center justify-between gap-2">
+                    <div class="flex items-center gap-[14px]">
+                        <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl bg-[#D9D9D9] overflow-hidden">
+                            <img src="assets/images/thumbnails/th3.png" class="w-full h-full object-cover" alt="thumbnail">
+                        </div>
+                        <div class="flex flex-col gap-[6px]">
+                            <h3 class="font-semibold line-clamp-2">Despicable Mines 3</h3>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/images/icons/video-vertical-grey.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                <p class="text-sm text-premiere-grey">Kids</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/images/icons/location.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                <p class="text-sm text-premiere-grey">Jakarta</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-[2px] rounded-full p-[8px_10px] bg-[#FFFFFF1A]">
+                        <p class="font-semibold text-xs leading-[18px]">4/5</p>
+                        <img src="assets/images/icons/Star 1.svg" class="w-4 h-4 flex shrink-0" alt="star">
+                    </div>
+                </div>
+            </a>
+            <a href="details.html" class="card">
+                <div class="flex items-center justify-between gap-2">
+                    <div class="flex items-center gap-[14px]">
+                        <div class="w-[100px] h-[110px] flex shrink-0 rounded-2xl bg-[#D9D9D9] overflow-hidden">
+                            <img src="assets/images/thumbnails/th4.png" class="w-full h-full object-cover" alt="thumbnail">
+                        </div>
+                        <div class="flex flex-col gap-[6px]">
+                            <h3 class="font-semibold line-clamp-2">Power of Linear</h3>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/images/icons/video-vertical-grey.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                <p class="text-sm text-premiere-grey">Horror</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="assets/images/icons/location.svg" class="w-[18px] h-[18px] flex shrink-0" alt="icon">
+                                <p class="text-sm text-premiere-grey">Bandung</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-[2px] rounded-full p-[8px_10px] bg-[#FFFFFF1A]">
+                        <p class="font-semibold text-xs leading-[18px]">4/5</p>
+                        <img src="assets/images/icons/Star 1.svg" class="w-4 h-4 flex shrink-0" alt="star">
+                    </div>
+                </div>
+            </a>
+        </section>
+        <div id="Bottom-Nav" class="relative w-full h-[123px] flex shrink-0">
+            <button class="fixed bottom-5 left-5 right-5 flex items-center shrink-0 rounded-3xl p-3 gap-3 h-12 bg-[#FFFFFF33] overflow-hidden transition-all duration-300 bg-black invert w-fit pr-4 mx-auto" onclick="openFilter()">
+                <img src="assets/images/icons/video-vertical-white.svg" class="w-6 h-6 flex shrink-0" alt="icon">
+                <p class="font-semibold text-sm text-white">Filter Movies</p>
+            </button>
+        </div>
+        <div class="filter-sidebar-container relative w-full">
+            <div id="Filter-Sidebar" class="fixed top-0 left-full flex h-screen w-full max-w-[640px] bg-black/70 z-50 transition-all duration-1000">
+                <div class="w-full h-full" onclick="openFilter()"></div>
+                <div class="flex flex-col w-full h-full max-w-[320px] shrink-0 bg-white overflow-y-scroll">
+                    <div class="relative flex items-center justify-between px-5 mt-[60px]">
+                        <button class="w-12 h-12 flex shrink-0 items-center justify-center bg-[#0101011A] backdrop-blur-md rounded-full" onclick="openFilter()">
+                            <img src="assets/images/icons/arrow-left.svg" class="w-[22px] h-[22px] flex shrink-0 invert" alt="">
+                        </button>
+                        <p class="text-center mx-auto font-semibold text-sm text-premiere-black">Filter Movies</p>
+                        <div class="dummy-button w-12"></div>
+                    </div>
+                    <form action="browse-genre.html" class="flex flex-col gap-[30px] px-5 mt-[30px] mb-[110px]">
+                        <div class="flex flex-col gap-3">
+                            <p class="font-semibold text-premiere-black">Genre</p>
+                            <label class="flex items-center gap-[10px]">
+                                <input type="radio" name="genre" id="" class="w-6 h-6 rounded-full appearance-none checked:border-4 checked:border-solid checked:border-white checked:bg-premiere-purple ring-1 ring-premiere-purple transition-all duration-300" checked>
+                                <p class="font-semibold text-premiere-black">Asian</p>
+                            </label>
+                            <label class="flex items-center gap-[10px]">
+                                <input type="radio" name="genre" id="" class="w-6 h-6 rounded-full appearance-none checked:border-4 checked:border-solid checked:border-white checked:bg-premiere-purple ring-1 ring-premiere-purple transition-all duration-300">
+                                <p class="font-semibold text-premiere-black">Horror</p>
+                            </label>
+                            <label class="flex items-center gap-[10px]">
+                                <input type="radio" name="genre" id="" class="w-6 h-6 rounded-full appearance-none checked:border-4 checked:border-solid checked:border-white checked:bg-premiere-purple ring-1 ring-premiere-purple transition-all duration-300">
+                                <p class="font-semibold text-premiere-black">Business</p>
+                            </label>
+                        </div>
+                        <div class="flex flex-col gap-3">
+                            <p class="font-semibold text-premiere-black">City</p>
+                            <label class="flex items-center gap-[10px]">
+                                <input type="radio" name="city" id="" class="w-6 h-6 rounded-full appearance-none checked:border-4 checked:border-solid checked:border-white checked:bg-premiere-purple ring-1 ring-premiere-purple transition-all duration-300" checked>
+                                <p class="font-semibold text-premiere-black">Jakarta</p>
+                            </label>
+                            <label class="flex items-center gap-[10px]">
+                                <input type="radio" name="city" id="" class="w-6 h-6 rounded-full appearance-none checked:border-4 checked:border-solid checked:border-white checked:bg-premiere-purple ring-1 ring-premiere-purple transition-all duration-300">
+                                <p class="font-semibold text-premiere-black">Bogor</p>
+                            </label>
+                            <label class="flex items-center gap-[10px]">
+                                <input type="radio" name="city" id="" class="w-6 h-6 rounded-full appearance-none checked:border-4 checked:border-solid checked:border-white checked:bg-premiere-purple ring-1 ring-premiere-purple transition-all duration-300">
+                                <p class="font-semibold text-premiere-black">Denpasar</p>
+                            </label>
+                        </div>
+                        <div class="flex flex-col gap-3">
+                            <p class="font-semibold text-premiere-black">Theater</p>
+                            <label class="flex items-center gap-[10px]">
+                                <input type="checkbox" name="city" id="" class="w-6 h-6 rounded-lg appearance-none checked:border-4 checked:border-solid checked:border-white checked:bg-premiere-purple ring-1 ring-premiere-purple transition-all duration-300" checked>
+                                <p class="font-semibold text-premiere-black">XXI Premiere</p>
+                            </label>
+                            <label class="flex items-center gap-[10px]">
+                                <input type="checkbox" name="city" id="" class="w-6 h-6 rounded-lg appearance-none checked:border-4 checked:border-solid checked:border-white checked:bg-premiere-purple ring-1 ring-premiere-purple transition-all duration-300">
+                                <p class="font-semibold text-premiere-black">CGV Cinema</p>
+                            </label>
+                            <label class="flex items-center gap-[10px]">
+                                <input type="checkbox" name="city" id="" class="w-6 h-6 rounded-lg appearance-none checked:border-4 checked:border-solid checked:border-white checked:bg-premiere-purple ring-1 ring-premiere-purple transition-all duration-300">
+                                <p class="font-semibold text-premiere-black">Angga Park</p>
+                            </label>
+                        </div>
+                        <div class="flex flex-col gap-3">
+                            <p class="font-semibold text-premiere-black">Availability</p>
+                            <label class="flex items-center gap-[10px]">
+                                <input type="radio" name="availability" id="" class="w-6 h-6 rounded-full appearance-none checked:border-4 checked:border-solid checked:border-white checked:bg-premiere-purple ring-1 ring-premiere-purple transition-all duration-300" checked>
+                                <p class="font-semibold text-premiere-black">Available Now</p>
+                            </label>
+                            <label class="flex items-center gap-[10px]">
+                                <input type="radio" name="availability" id="" class="w-6 h-6 rounded-full appearance-none checked:border-4 checked:border-solid checked:border-white checked:bg-premiere-purple ring-1 ring-premiere-purple transition-all duration-300">
+                                <p class="font-semibold text-premiere-black">Coming Soon</p>
+                            </label>
+                        </div>
+                        <button type="submit" class="w-full rounded-full p-[12px_18px] bg-[#5236FF] text-white font-bold text-center">Show 1893 Movies</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/browse-genre.js"></script>
+</body>
+</html>
