@@ -33,7 +33,7 @@ export default function CustomerTransactionSuccess() {
           </div>
           <div className="flex flex-col gap-3 w-[220px]">
             <a
-              href="discover.html"
+              href="my-tickets.html"
               className="w-full rounded-full p-[12px_18px] bg-white font-bold text-premiere-black text-center"
             >
               Book More
